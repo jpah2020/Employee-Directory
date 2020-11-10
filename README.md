@@ -12,4 +12,4 @@ The React Employee Directory app allows for business professionals to access non
 
 # APP LINK
 
-[LINK]( https://jpah2020.github.io/Employee-Directory/)
+[EMPLOYEE-DIRECTORY-APP-LINK]( https://jpah2020.github.io/Employee-Directory/)
