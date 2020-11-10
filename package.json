@@ -1,5 +1,5 @@
 {
-  "homepage": "https://myusername.github.io",
+  "homepage": "https://jpah2020.github.io/Employee-Directory",
   "name": "hello-react",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,8 @@
     "axios": "^0.21.0",
     "classlist.js": "^1.1.20150312",
     "gh-pages": "^3.1.0",
+    "postcss-color-functional-notation": "^3.0.2",
+    "postcss-values-parser": "^4.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
@@ -20,7 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "react-scripts deploy"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
